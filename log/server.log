@@ -1,0 +1,8 @@
+
+> foo@0.0.0 start /Users/yangchongduo/Documents/foo
+> node ./bin/www
+
+[0mGET / [32m200 [0m58.520 ms - 561[0m
+[0mGET /stylesheets/style.css [32m200 [0m4009.647 ms - 111[0m
+[0mGET /stylesheets/animate.css [32m200 [0m4010.871 ms - 41626[0m
+[0mGET /m?p=http://localhost:3000/&msg=Uncaught%20ReferenceError:%20$%20is%20not%20defined&url=http://www.du0o.com:82/js/index.js&line=3&col=1&error=ReferenceError:%20$%20is%20not%20defined%20%20%20%20at%20http://www.du0o.com:82/js/index.js:3:1 [33m404 [0m7.124 ms - 1537[0m

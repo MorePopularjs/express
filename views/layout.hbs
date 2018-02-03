@@ -8,14 +8,22 @@
 </head>
 
 <body>
-  <p>body content before script</p>
-  <script defer type="text/javascript" src="/js/jquery.js"></script>
-  <p>body content before script1</p>
-  <script type="text/javascript" src="/js/script1.js"></script>
-  <script type="text/javascript" src="/js/script2.js"></script>
-  <script type="text/javascript" src="/js/script3.js"></script>
-  <p>body after script</p>
-  {{!-- {{{body}}} --}}
+  {{!--
+  <p>body content before script</p> --}} {{!--
+  <script defer type="text/javascript" src="/js/jquery.js"></script> --}} {{!--
+  <p>body content before script1</p> --}} {{!--
+  <script type="text/javascript" src="/js/script1.js"></script> --}} {{!--
+  <script type="text/javascript" src="/js/script2.js"></script> --}} {{!--
+  <script type="text/javascript" src="/js/script3.js"></script> --}} {{!--
+  <p>body after script</p> --}} {{{body}}}
 </body>
 
 </html>
+<script>
+  window.onerror = function (msg, url, line, col, error) {
+    (new Image).src=`/m?p=${location.href}&msg=${msg}&url=${url}&line=${line}&col=${col}&error=${error.stack}`
+    return true
+  }
+</script>
+
+<script src="http://www.du0o.com:82/js/index.js" crossorigin></script>
